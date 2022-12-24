@@ -87,7 +87,7 @@ li{
     align-items: center;
 }
 .right-hero-picture{
-    width: 400px; 
+    width: 500px; 
     height: 250px;
     background-color: grey;
     margin-left: 60px;
@@ -154,4 +154,46 @@ li{
     align-self: flex-end;
     font-weight: bold;
     margin-top: 10px;
+}
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.sign-up-div{
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 750px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.span,.inside-span{
+    color: white;
+}
+.inside-span{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.sign-up-button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+footer{
+    background-color: #1F2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > div{
+    color: white;
 }
