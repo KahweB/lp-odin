@@ -1,3 +1,48 @@
 *{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+li{
+    margin: 0px 10px 0px 10px;
+    flex-shrink: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    height: 50px;
+}
+.logo-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-weight: 700;
+    
+}
+.header-link-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.list{
+    display: flex;
+    padding-inline-start: 0px;
+    justify-content: center;
+    
+
+    
+    
 }
