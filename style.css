@@ -92,3 +92,42 @@ li{
     background-color: grey;
     margin-left: 60px;
 }
+.information-container{
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.info-top{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+.info-bottom-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 160px;
+    height: 200px;
+    margin: 30px 30px;
+}
+.info-pictures{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882F6;
+    background-color: white;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+.picture-text{
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
